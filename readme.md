@@ -8,11 +8,11 @@ On this first initial hack session, the theme is to break down the response time
 The proposed cloud providers are going to base the real world cheap cloud option:
 
 
-1) Golang compiled deployed to --> Appengine, Openshift, Heroku. 
+1) Golang native deployed to --> Appengine, Openshift, Heroku. 
 
 2) Scala JVM JIT deployed to --> Appengine, Openshift and Heroku.
 
-3) NodeJS V8 JIT deployed to --> Nodejitsu, Openshift and Heroku.
+3) NodeJS V8 native deployed to --> Nodejitsu, Openshift and Heroku.
 
 
 Challenge 1: Golang vs Scala JVM on Openshift.
