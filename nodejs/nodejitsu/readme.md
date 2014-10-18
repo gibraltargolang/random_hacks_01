@@ -1,3 +1,5 @@
 NodeJS nodejitsu
 
-The basic app consists of a basic REST endpoint that reads a 200 long string from a local static file, parse its contents to JSON {hello:"200longchar"} and respond to the /helloworld endpoint.
+The basic app consists of a basic REST endpoint {message:"Hello, World!"} and respond to the /hello endpoint.
+
+http://localhost:4002/hello

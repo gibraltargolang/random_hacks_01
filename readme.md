@@ -9,6 +9,7 @@ The proposed cloud providers are going to base the real world cheap cloud option
 
 
 1) Golang compiled deployed to --> Appengine, Openshift, Heroku. 
+
 2) Scala JVM JIT deployed to --> Appengine, Openshift and Heroku.
 
 3) NodeJS V8 JIT deployed to --> Nodejitsu, Openshift and Heroku.
@@ -27,7 +28,7 @@ Challenge 5: Golang vs NodeJS on Heroku.
 Challenge 6: Golang vs NodeJS on Nodejitsu vs Appengine.
 
 
-The basic app consists of a basic REST endpoint that reads a 200 long string from a local static file, parse its contents to JSON {hello:"200longchar"} and respond to the /helloworld endpoint.
+The basic app consists of a basic REST endpoint {message:"Hello, World!"} and respond to the /hello endpoint.
 
 This app will then be deployed to Openshift, Heroku, AppEngine or Nodejitsu.
 
