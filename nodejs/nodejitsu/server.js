@@ -9,12 +9,12 @@ http.createServer(function (req, res) {
     switch (path) {
         case '/hello':
             // JSON Response Test
-            res.writeHead(200, {'Content-Type': 'application/json; charset=UTF-8'});
+            res.writeHead(200, {'Content-Type': 'application/json'});
             // Write JSON object to response
             res.end(JSON.stringify(hello));
             break;
         default :
-            res.writeHead(404, {'Content-Type': 'application/json; charset=UTF-8'});
+            res.writeHead(404, {'Content-Type': 'application/json'});
             res.end(JSON.stringify({'error':404}));
             break;
 
