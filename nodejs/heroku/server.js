@@ -11,7 +11,7 @@ http.createServer(function (req, res) {
             // JSON Response Test
             res.writeHead(200, {'Content-Type': 'application/json'});
             // Write JSON object to response
-            res.end(JSON.stringify(hello));
+            res.end(hello);
             break;
         default :
             res.writeHead(404, {'Content-Type': 'application/json'});
