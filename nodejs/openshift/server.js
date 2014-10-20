@@ -1,7 +1,6 @@
 var http = require('http')
     , url = require('url');
 
-var hello = {message: "Hello, World!"};
 var port = 4003;
 http.createServer(function (req, res) {
     // JSON response object
@@ -11,7 +10,7 @@ http.createServer(function (req, res) {
             // JSON Response Test
             res.writeHead(200, {'Content-Type': 'application/json'});
             // Write JSON object to response
-            res.end(hello);
+            res.end(JSON.stringify({message: "Hello, World!"}));
             break;
         default :
             res.writeHead(404, {'Content-Type': 'application/json'});
