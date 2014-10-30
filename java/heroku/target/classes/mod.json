@@ -1,0 +1,11 @@
+{
+  // Java verticle
+  "main":"com.chickendev.JSONTestVerticle", 
+  "description":"Simple JSON test for Gibraltar Go Community",
+  "licenses": "Free Software, Chicken Yeah!",
+  "author": "Daniel Ortiz Esquivel ",
+  "developers": ["dortizesquivel"],
+  "keywords": ["json", "test", "go", "chicken", "nuggets"],
+  "homepage": "www.chickendev.com",
+  "auto-redeploy": true
+}
