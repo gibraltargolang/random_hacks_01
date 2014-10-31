@@ -23,7 +23,7 @@ public class JSONTestVerticle extends Verticle {
 	@Override
 	public void start() {
 		JSON.put(JSON_KEY, JSON_VALUE);
-		JSON.put(JSON_ERROR_KEY, JSON_ERROR_VALUE);
+		JSON_ERROR.put(JSON_ERROR_KEY, JSON_ERROR_VALUE);
 		
 		HttpServer server = vertx.createHttpServer();
 		server.requestHandler(new Handler<HttpServerRequest>() {
