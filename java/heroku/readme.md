@@ -9,5 +9,4 @@ heroku create --stack cedar --buildpack https://github.com/dortizesquivel/heroku
 foreman run
 
 ###Live Example:
-https://quiet-brook-6278.herokuapp.com/hello
-
+https://vertx-simple-json-endpoint.herokuapp.com/hello
