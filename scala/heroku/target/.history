@@ -1,0 +1,19 @@
+compile
+eclipse with-source=true
+compile
+clean
+compile
+clean
+compile
+eclipse with-source=true
+compile
+rum
+run
+clean
+compile
+eclipse with-source=true
+run
+compile
+run
+exit
+run
