@@ -1,5 +1,13 @@
-Vertx heroku
+Vertx & Heroku
 
-The basic app consists of a basic REST endpoint {message:"Hello, World!"} and respond to the /hello endpoint.
+This app consists in a simple REST endpoint that returns {"message":"Hello, World!"}
 
-http://localhost:8080/hello
+##Create the heroku project using:
+"heroku create --stack cedar --buildpack https://github.com/dortizesquivel/heroku-buildpack-vertx"
+
+## Run the project localy using http://localhost:5000/hello
+"foreman run"
+
+Live Example:
+https://quiet-brook-6278.herokuapp.com/hello
+

@@ -1,1 +1,2 @@
-web: vertx run runzip jsonTest-0.1-mod.zip
+web: vertx runzip target/jsonTest-0.1-mod.zip
+
