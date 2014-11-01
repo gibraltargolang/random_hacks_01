@@ -5,13 +5,13 @@ import play.api.mvc._
 
 object Application extends Controller {
 
-  case class Messages(hello: String)
+  case class Messages(message: String)
 
   implicit val placesWrites = Json.writes[Messages]
 
   def hello = Action {
-    val json = Json.toJson(Messages("Hello world!"))
-    Ok(json)
+    val json = Json.toJson(Messages("Hello, World!"))
+    Ok(json).withHeaders(CONTENT_TYPE -> "application/javascript")
   }
 
   // http://localhost:9000/echo?action=sayHello
