@@ -16,6 +16,6 @@ func main() {
 }
 
 func hello(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/javascript")
+	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(&Message{"Hello, World!"})
 }

@@ -11,7 +11,7 @@ object Application extends Controller {
 
   def hello = Action {
     val json = Json.toJson(Messages("Hello, World!"))
-    Ok(json).withHeaders(CONTENT_TYPE -> "application/javascript")
+    Ok(json).withHeaders(CONTENT_TYPE -> "application/json")
   }
 
   // http://localhost:9000/echo?action=sayHello
