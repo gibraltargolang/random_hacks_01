@@ -1,3 +1,22 @@
 {
-    "name": "nodejsapp", "version": "0.0.1", "private": true
+  "name": "nodejsapp",
+  "version": "0.1.2",
+  "description": "A sample Node.js app using Express 4",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }

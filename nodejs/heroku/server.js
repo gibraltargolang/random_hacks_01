@@ -1,7 +1,7 @@
 var http = require('http')
     , url = require('url');
 
-var port = 4001;
+var port = (process.env.PORT || 4001);
 http.createServer(function (req, res) {
     // JSON response object
     var path = url.parse(req.url).pathname;
